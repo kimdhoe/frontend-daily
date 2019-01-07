@@ -32,10 +32,16 @@ const IndexPage = () => (
 
     <ul css={[ styles.list ]}>
       <ListItem
+        number={2}
+        date={'2019. 01. 07'}
+        note={'A unified styling language'}
+        url={'https://medium.com/@kimdhoe1/2-a-unified-styling-language-b957e4daa8ea'}
+      />
+      <ListItem
         number={1}
         date={'2019. 01. 06'}
-        note={'You must know EVERYTHING!!!'}
-        url={'/'}
+        note={'Things I don\'t know'}
+        url={'https://medium.com/@kimdhoe1/1-things-i-dont-know-3dcc616811ef'}
       />
     </ul>
 
@@ -56,6 +62,7 @@ const styles = {
     listStyleType: 'none',
   },
   listItem: {
+    marginBottom: 10,
   },
   listItemLink: {
     display: 'flex',
