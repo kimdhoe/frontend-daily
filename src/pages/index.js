@@ -32,6 +32,12 @@ const IndexPage = () => (
 
     <ul css={[ styles.list ]}>
       <ListItem
+        number={3}
+        date={'2019. 01. 08'}
+        note={'Better reusable React components with the overrides pattern'}
+        url={'https://medium.com/@kimdhoe1/3-better-reusable-react-components-with-the-overrides-pattern-bee73a42428e'}
+      />
+      <ListItem
         number={2}
         date={'2019. 01. 07'}
         note={'A unified styling language'}

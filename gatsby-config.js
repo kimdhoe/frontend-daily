@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/frontend-daily',
   siteMetadata: {
     title: 'Frontend Daily',
     description: 'A hand-curated daily digest of articles about frontend development.',
