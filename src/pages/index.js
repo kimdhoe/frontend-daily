@@ -13,6 +13,12 @@ const IndexPage = () => (
 
     <ul css={[ styles.list ]}>
       <Item
+        number={5}
+        date={'2019. 01. 10'}
+        note={'A comprehensive look back at front-end in 2018'}
+        url={'https://medium.com/@kimdhoe1/5-a-comprehensive-look-back-at-front-end-in-2018-f08b852b4e97'}
+      />
+      <Item
         number={4}
         date={'2019. 01. 09'}
         note={'Introducing React Hooks'}
