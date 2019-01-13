@@ -13,6 +13,12 @@ const IndexPage = () => (
 
     <ul css={[ styles.list ]}>
       <Item
+        number={8}
+        date={'2019. 01. 13'}
+        note={'Transducers: Efficient data processing pipelines in JavaScript'}
+        url={'https://medium.com/@kimdhoe1/8-transducers-efficient-data-processing-pipelines-in-javascript-96afb0bfd4b5'}
+      />
+      <Item
         number={7}
         date={'2019. 01. 12'}
         note={'Defensive JavaScript'}
