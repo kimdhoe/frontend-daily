@@ -13,6 +13,12 @@ const IndexPage = () => (
 
     <ul css={[ styles.list ]}>
       <Item
+        number={12}
+        date={'2019. 01. 17'}
+        note={'Write tests. Not too many. Mostly integration.'}
+        url={'https://blog.kentcdodds.com/write-tests-not-too-many-mostly-integration-5e8c7fff591c'}
+      />
+      <Item
         number={11}
         date={'2019. 01. 16'}
         note={'Why I\'ve stopped exporting defaults from my JavaScript modules'}
