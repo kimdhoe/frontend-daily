@@ -13,10 +13,16 @@ const IndexPage = () => (
 
     <ul css={[ styles.list ]}>
       <Item
+        number={13}
+        date={'2019. 01. 18'}
+        note={'Why I don\'t use React-Router'}
+        url={'https://medium.com/frontend-daily/13-why-i-dont-use-react-router-bcc158cd53c5'}
+      />
+      <Item
         number={12}
         date={'2019. 01. 17'}
         note={'Write tests. Not too many. Mostly integration.'}
-        url={'https://blog.kentcdodds.com/write-tests-not-too-many-mostly-integration-5e8c7fff591c'}
+        url={'https://medium.com/frontend-daily/12-write-tests-not-too-many-mostly-integration-4d2ff3ef0ea6'}
       />
       <Item
         number={11}
